@@ -1,5 +1,6 @@
 # trellis-flush-rewrite-rules-during-deploy
 
+[![Build Status](https://travis-ci.com/ItinerisLtd/trellis-flush-rewrite-rules-during-deploy.svg?token=ptrvJskDR5BKm8thpNdd&branch=master)](https://travis-ci.com/ItinerisLtd/trellis-flush-rewrite-rules-during-deploy)
 [![GitHub tag](https://img.shields.io/github/tag/ItinerisLtd/trellis-flush-rewrite-rules-during-deploy.svg)](https://github.com/ItinerisLtd/trellis-flush-rewrite-rules-during-deploy/tags)
 [![license](https://img.shields.io/github/license/ItinerisLtd/trellis-flush-rewrite-rules-during-deploy.svg)](https://github.com/ItinerisLtd/trellis-flush-rewrite-rules-during-deploy/blob/master/LICENSE)
 
