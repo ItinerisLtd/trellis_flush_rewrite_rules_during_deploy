@@ -49,7 +49,7 @@ Add this role to the [`deploy_finalize_after` hook](https://roots.io/trellis/doc
 # group_vars/all/deploy-hooks.yml
 # Learn more on https://roots.io/trellis/docs/deploys/#hooks
 deploy_finalize_after:
-  - "{{ playbook_dir }}/vendor/roles/trellis_flush_rewrite_rules_during_deploy/tasks/main.yml"
+  - "{{ playbook_dir }}/vendor/roles/itinerisltd.trellis_flush_rewrite_rules_during_deploy/tasks/main.yml"
 ```
 
 ## Usage
