@@ -2,4 +2,4 @@
 - hosts: localhost
   remote_user: root
   roles:
-    - trellis-flush-rewrite-rules-during-deploy
+    - ../trellis-flush-rewrite-rules-during-deploy
