@@ -52,6 +52,8 @@ deploy_finalize_after:
   - "{{ playbook_dir }}/vendor/roles/itinerisltd.trellis_flush_rewrite_rules_during_deploy/tasks/main.yml"
 ```
 
+Note: You should put this role before purging caches, e.g: [trellis-purge-wp-rocket-cache-during-deploy](https://github.com/ItinerisLtd/trellis-purge-wp-rocket-cache-during-deploy), [trellis-purge-kinsta-cache-during-deploy](https://github.com/ItinerisLtd/trellis-purge-kinsta-cache-during-deploy), etc.
+
 ## Usage
 
 [Deploy](https://roots.io/trellis/docs/deploys/#example) as usual. No special action needed.
