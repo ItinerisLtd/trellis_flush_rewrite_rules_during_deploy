@@ -1,8 +1,8 @@
-# trellis-flush-rewrite-rules-during-deploy
+# trellis_flush_rewrite_rules_during_deploy
 
-[![Build Status](https://travis-ci.com/ItinerisLtd/trellis-flush-rewrite-rules-during-deploy.svg?token=ptrvJskDR5BKm8thpNdd&branch=master)](https://travis-ci.com/ItinerisLtd/trellis-flush-rewrite-rules-during-deploy)
-[![GitHub tag](https://img.shields.io/github/tag/ItinerisLtd/trellis-flush-rewrite-rules-during-deploy.svg)](https://github.com/ItinerisLtd/trellis-flush-rewrite-rules-during-deploy/tags)
-[![license](https://img.shields.io/github/license/ItinerisLtd/trellis-flush-rewrite-rules-during-deploy.svg)](https://github.com/ItinerisLtd/trellis-flush-rewrite-rules-during-deploy/blob/master/LICENSE)
+[![Build Status](https://travis-ci.com/ItinerisLtd/trellis_flush_rewrite_rules_during_deploy.svg?token=ptrvJskDR5BKm8thpNdd&branch=master)](https://travis-ci.com/ItinerisLtd/trellis_flush_rewrite_rules_during_deploy)
+[![GitHub tag](https://img.shields.io/github/tag/ItinerisLtd/trellis_flush_rewrite_rules_during_deploy.svg)](https://github.com/ItinerisLtd/trellis_flush_rewrite_rules_during_deploy/tags)
+[![license](https://img.shields.io/github/license/ItinerisLtd/trellis_flush_rewrite_rules_during_deploy.svg)](https://github.com/ItinerisLtd/trellis_flush_rewrite_rules_during_deploy/blob/master/LICENSE)
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
@@ -39,7 +39,7 @@ Add this role to `requirements.yml`:
 
 ```yaml
 # requirements.yml
-- src: itinerisltd.trellis-flush-rewrite-rules-during-deploy
+- src: itinerisltd.trellis_flush_rewrite_rules_during_deploy
   version: 0.1.0 # Check for latest version!
 ```
 
@@ -49,7 +49,7 @@ Add this role to the [`deploy_finalize_after` hook](https://roots.io/trellis/doc
 # group_vars/all/deploy-hooks.yml
 # Learn more on https://roots.io/trellis/docs/deploys/#hooks
 deploy_finalize_after:
-  - "{{ playbook_dir }}/vendor/roles/trellis-flush-rewrite-rules-during-deploy/tasks/main.yml"
+  - "{{ playbook_dir }}/vendor/roles/trellis_flush_rewrite_rules_during_deploy/tasks/main.yml"
 ```
 
 ## Usage
@@ -73,8 +73,8 @@ This role executes `[$ wp rewrite flush](https://developer.wordpress.org/cli/com
 Thanks! Glad you like it. It's important to let my boss knows somebody is using this project. Instead of giving reviews on wp.org, consider:
 
 - tweet something good with mentioning [@itineris_ltd](https://twitter.com/itineris_ltd) and [@TangRufus](https://twitter.com/tangrufus)
-- star this [Github repo](https://github.com/ItinerisLtd/trellis-flush-rewrite-rules-during-deploy)
-- watch this [Github repo](https://github.com/ItinerisLtd/trellis-flush-rewrite-rules-during-deploy)
+- star this [Github repo](https://github.com/ItinerisLtd/trellis_flush_rewrite_rules_during_deploy)
+- watch this [Github repo](https://github.com/ItinerisLtd/trellis_flush_rewrite_rules_during_deploy)
 - write blog posts
 - submit pull requests
 - [hire Itineris](https://www.itineris.co.uk/services/)
@@ -82,7 +82,7 @@ Thanks! Glad you like it. It's important to let my boss knows somebody is using 
 ## Feedback
 
 **Please provide feedback!** We want to make this library useful in as many projects as possible.
-Please submit an [issue](https://github.com/ItinerisLtd/trellis-flush-rewrite-rules-during-deploy/issues/new) and point out what you do and don't like, or fork the project and make suggestions.
+Please submit an [issue](https://github.com/ItinerisLtd/trellis_flush_rewrite_rules_during_deploy/issues/new) and point out what you do and don't like, or fork the project and make suggestions.
 **No issue is too small.**
 
 ## Change Log
@@ -95,11 +95,11 @@ If you discover any security related issues, please email [hello@itineris.co.uk]
 
 ## Credits
 
-[trellis-flush-rewrite-rules-during-deploy](https://github.com/ItinerisLtd/trellis-flush-rewrite-rules-during-deploy) is a [Itineris Limited](https://www.itineris.co.uk/) project created by [Tang Rufus](https://typist.tech).
+[trellis_flush_rewrite_rules_during_deploy](https://github.com/ItinerisLtd/trellis_flush_rewrite_rules_during_deploy) is a [Itineris Limited](https://www.itineris.co.uk/) project created by [Tang Rufus](https://typist.tech).
 
-Full list of contributors can be found [here](https://github.com/ItinerisLtd/trellis-flush-rewrite-rules-during-deploy/graphs/contributors).
+Full list of contributors can be found [here](https://github.com/ItinerisLtd/trellis_flush_rewrite_rules_during_deploy/graphs/contributors).
 
 ## License
 
-[trellis-flush-rewrite-rules-during-deploy](https://github.com/ItinerisLtd/trellis-flush-rewrite-rules-during-deploy) is licensed under the [MIT License](https://opensource.org/licenses/MIT).
+[trellis_flush_rewrite_rules_during_deploy](https://github.com/ItinerisLtd/trellis_flush_rewrite_rules_during_deploy) is licensed under the [MIT License](https://opensource.org/licenses/MIT).
 Please see [License File](./LICENSE) for more information.
