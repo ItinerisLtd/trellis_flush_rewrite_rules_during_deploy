@@ -8,12 +8,17 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
 
-- [Requirements](#requirements)
+- [Goal](#goal)
+- [Minimum Requirements](#minimum-requirements)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Author Information](#author-information)
+- [FAQs](#faqs)
+  - [It looks awesome. Where can I find some more goodies like this?](#it-looks-awesome-where-can-i-find-some-more-goodies-like-this)
+  - [This isn't on wp.org. Where can I give a ⭐️⭐️⭐️⭐️⭐️ review?](#this-isnt-on-wporg-where-can-i-give-a-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F-review)
 - [Feedback](#feedback)
-- [Change log](#change-log)
+- [Change Log](#change-log)
+- [Security](#security)
+- [Credits](#credits)
 - [License](#license)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
