@@ -58,7 +58,7 @@ Note: You should put this role before purging caches, e.g: [trellis-purge-wp-roc
 
 [Deploy](https://roots.io/trellis/docs/deploys/#example) as usual. No special action needed.
 
-This role executes `[$ wp rewrite flush](https://developer.wordpress.org/cli/commands/rewrite/flush/)` during [Trellis](https://github.com/roots/trellis) deploys.
+This role executes [`$ wp rewrite flush`](https://developer.wordpress.org/cli/commands/rewrite/flush/) during [Trellis](https://github.com/roots/trellis) deploys.
 
 ## FAQs
 
