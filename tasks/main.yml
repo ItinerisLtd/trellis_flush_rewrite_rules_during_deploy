@@ -2,7 +2,6 @@
 - name: Flush WordPress rewrite rules
   command: wp rewrite flush
   args:
-    chdir: "{{ deploy_helper.current_path }}"
-  changed_when: false
+    chdir: "{{ deploy_helper.new_release_path }}"
   when:
     - wp_installed.rc == 0
