@@ -1,23 +1,7 @@
 ---
-- name: Web root directory exists?
-  stat:
-    path: "{{ deploy_helper.current_path }}"
-  register: trellis_flush_rewrite_rules_finalize_after_current_path
-
-- name: WordPress installed?
-  command: wp core is-installed --skip-plugins --skip-themes --require={{ deploy_helper.shared_path }}/tmp_multisite_constants.php
-  args:
-    chdir: "{{ deploy_helper.current_path }}"
-  register: trellis_flush_rewrite_rules_finalize_after_wp_installed
-  when: trellis_flush_rewrite_rules_finalize_after_current_path.stat.exists
-  changed_when: false
-  failed_when: trellis_flush_rewrite_rules_finalize_after_wp_installed.stderr | default("") != "" or trellis_flush_rewrite_rules_finalize_after_wp_installed.rc > 1
-
 - name: Flush WordPress rewrite rules
   command: wp rewrite flush
   args:
-    chdir: "{{ deploy_helper.current_path }}"
-  changed_when: false
+    chdir: "{{ deploy_helper.new_release_path }}"
   when:
-    - trellis_flush_rewrite_rules_finalize_after_current_path.stat.exists
-    - trellis_flush_rewrite_rules_finalize_after_wp_installed.rc == 0
+    - wp_installed.rc == 0
